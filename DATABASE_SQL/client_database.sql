@@ -1,0 +1,5 @@
+CREATE TABLE client(
+	id_client SERIAL NOT NULL PRIMARY KEY,
+	name VARCHAR(200),
+	cpf VARCHAR(14) UNIQUE
+);
